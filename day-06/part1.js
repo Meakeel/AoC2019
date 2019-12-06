@@ -29,7 +29,7 @@ function mapOrbits() {
 let orbitKeys = Object.keys(orbits);
 
 for (let i = 0; i < orbitKeys.length; i++) {
-  const currentObject = orbitKeys[i];
+  let currentObject = orbitKeys[i];
 
   let nextObject = orbits[currentObject];
 
